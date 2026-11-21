@@ -1,0 +1,12 @@
+input/
+release*/
+qa*/
+*.exe
+*.dll
+!tools/dnlib.dll
+*.pdb
+*.log
+.env*
+*.p12
+*.jks
+*.key

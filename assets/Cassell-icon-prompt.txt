@@ -1,0 +1,7 @@
+Tool: built-in image_gen, edit mode, transparent_background=true.
+Edit target supplied by user: Screenshot_20261024_113743..jpg
+Original source preserved separately as Cassell-source.jpg.
+Edited output: Cassell.png. Windows format variants packaged by PackageCassellIcon.cs.
+
+Prompt:
+Use case: precise-object-edit. Asset type: Windows launcher app icon, square high-resolution PNG with genuine transparent corners. Image 1 is the edit target, not a style reference. The user wants this EXACT supplied monochrome Cassell College tree crest used as their application icon with rounded outer corners. Preserve all existing tree branches, leaf shapes, roots, concentric crest rings, symbols, and every letter/word exactly as they appear in the source. Do not redraw, retype, correct, enhance, replace or reinterpret the crest. Only fit the entire original emblem proportionally into a square black icon tile with modest even black padding and gently rounded square outer corners (about 18 percent corner radius). The black tile interior stays opaque black. The areas outside the rounded square corners must be truly transparent alpha, not a checkerboard illustration. Keep original silver-white on black coloring and crisp original line work. Include the complete outer circle without any crop. Front-facing flat 2D icon only, no text added, no bevel, no shadow, no perspective, no 3D mockup, no separate caption, no redesign. Output a single square icon only.

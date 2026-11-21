@@ -1,0 +1,215 @@
+{
+  "scope": "Windows derivative source layer only; no launcher binaries or accounts",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 99,
+      "sha256": "68b0ab951d3d4a96437bcfd5b172a8e7720907e0bde881e4f069cca100cc33ce"
+    },
+    {
+      "path": "AboutCredits.cs",
+      "bytes": 7469,
+      "sha256": "93bb6a7f690b3b595c0235d5b62372765faf5e1031e59d6a15745396c5bb7813"
+    },
+    {
+      "path": "assets/Cassell-512.png",
+      "bytes": 361985,
+      "sha256": "b3ef2d1c18252ff69082a1eca61e4a32d7e33bb1a5d36bc7489050d14dab543b"
+    },
+    {
+      "path": "assets/Cassell-icon-preview.png",
+      "bytes": 150749,
+      "sha256": "2b68c927676bfd8ddd04365a13e3f7766434c6684aa8ac2bed33438ef0dccbe2"
+    },
+    {
+      "path": "assets/Cassell-icon-prompt.txt",
+      "bytes": 1457,
+      "sha256": "4658a62b8e7ac2be0325be6e6a439b3e3887e9ab1851d92b00059550d5e4e862"
+    },
+    {
+      "path": "assets/Cassell-source.jpg",
+      "bytes": 183791,
+      "sha256": "83a8a5cdc1564a7a710972506e5be7ea8f76e214ca26866a392fd76fff351863"
+    },
+    {
+      "path": "assets/Cassell.ico",
+      "bytes": 140905,
+      "sha256": "ebf3e46823aaaf10c7163d2d64e3a4f8b1411ac9a486e36accb3f7c77bc2984a"
+    },
+    {
+      "path": "assets/Cassell.png",
+      "bytes": 1717764,
+      "sha256": "96330b271b1a8f6b844d9d0085d8d4ce45cea08fe371893dddac72ba5149ce3f"
+    },
+    {
+      "path": "assets/Dragon-background-prompt.txt",
+      "bytes": 1952,
+      "sha256": "bdfdd037579d1567d9b7a2a17808323244a90c3b45a0a24b656d0f3bb693b700"
+    },
+    {
+      "path": "assets/DragonAcademy.png",
+      "bytes": 2588458,
+      "sha256": "a8d1b322001baddd83c30928469b9e62ee7870213bb2fa3e0b14ddc8851fc97b"
+    },
+    {
+      "path": "assets/OriginalAuthor.jpg",
+      "bytes": 1622,
+      "sha256": "9261f19a47590a3de272f886a3ad6f71233f99ce9eb77618dcd35574dac8c8fd"
+    },
+    {
+      "path": "assets/PackageCassellIcon.cs",
+      "bytes": 3716,
+      "sha256": "deacca29aa83002086439b2dcc199de23f1d42bb63b1f3775da99dd4c51f698e"
+    },
+    {
+      "path": "assets/Ricardo.jpg",
+      "bytes": 133759,
+      "sha256": "b3e9affb215ab2fd5518c7f220365589007b7f1b14c5d3d5d0461a8007d60740"
+    },
+    {
+      "path": "Build.ps1",
+      "bytes": 2312,
+      "sha256": "0c60f95abe3dca64bc8ad1f18c31025e8d99124d9629786b3840e113c78d8bde"
+    },
+    {
+      "path": "DragonHome.cs",
+      "bytes": 14137,
+      "sha256": "c60c7981b67938f7813090a995bc6872c6edea74ce4d163b4abadf05afd1f25b"
+    },
+    {
+      "path": "HomeCredits.cs",
+      "bytes": 4784,
+      "sha256": "c911b2af7859ca58b6a6c13e00ae3dc8e4c852617998f9ae9f3543fed19738f5"
+    },
+    {
+      "path": "InterfaceCopy.cs",
+      "bytes": 1623,
+      "sha256": "3f5787a5c03376ca1df3ab15da0062c876da4b19786c3251b064e80b9777d647"
+    },
+    {
+      "path": "LauncherMotion.cs",
+      "bytes": 20612,
+      "sha256": "49a9b0a7ed88b715455b66d8c0a0acdef5d8fc51538dfbcd591a6a05ef78713a"
+    },
+    {
+      "path": "LauncherUpdatePolicy.cs",
+      "bytes": 3969,
+      "sha256": "5fc20133ea768202231aa6d4b2479efe1d0af506c233f454403dd5a1877e53e7"
+    },
+    {
+      "path": "LauncherUpdateUi.cs",
+      "bytes": 2803,
+      "sha256": "c5911e355f60ffbb9395461aa880854946a5012f0760b03c44ec96e7736f61de"
+    },
+    {
+      "path": "LaunchSuccess.cs",
+      "bytes": 27397,
+      "sha256": "b7b14a56f90d92c408bbd383d1538da349b1b8aaddffab9613f9507dcd6a2ad7"
+    },
+    {
+      "path": "LICENCE",
+      "bytes": 3218,
+      "sha256": "940d9b9ddd518793cb69161a842ca256ff84ac14b4354ce8397cf04227c03684"
+    },
+    {
+      "path": "NavigationShell.cs",
+      "bytes": 17425,
+      "sha256": "bac454115cafd51066e1f816315dfd2c6750e57fb9e77d528280fe06bbf083b7"
+    },
+    {
+      "path": "PatchBrand.cs",
+      "bytes": 28910,
+      "sha256": "0f85cdc8074fd14a4e431982a4907034230af591b8cd17e9eb8a5d551c8c9180"
+    },
+    {
+      "path": "PointerLight.cs",
+      "bytes": 16419,
+      "sha256": "d9ca7a456905f8fe3b4c6fcdad1d9541fd0d7d092f14b594dc039f702e945f16"
+    },
+    {
+      "path": "RainScene.cs",
+      "bytes": 18326,
+      "sha256": "eb0116bee9f010eabb41466645e7bd8fe32dfafb52bc8421e67a60260e00f800"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5086,
+      "sha256": "8f39d9f4bcb56c71790752defe67f6d4c6dcfe2bc0f43aa16b9cb39531a821bb"
+    },
+    {
+      "path": "RunVerification.ps1",
+      "bytes": 1648,
+      "sha256": "749bbc8e3fa9ec058c232fcf21fc1bb5efd5a2e524929b360e655ba2178857ae"
+    },
+    {
+      "path": "SOURCE-NOTICE.md",
+      "bytes": 211,
+      "sha256": "24b2a6f881bafe1f29f6767c8c7ad1a31e14b8450eeb6c5fbfed5a2ac0a519c0"
+    },
+    {
+      "path": "test/VerifyDragonHome.cs",
+      "bytes": 11752,
+      "sha256": "233d8ac892a2c3ae94e0d5299673c8f3a1352d12f7c60e7ca24c07132dcfe793"
+    },
+    {
+      "path": "test/VerifyLauncherMotion.cs",
+      "bytes": 20920,
+      "sha256": "47aa4468f181bd2b99d56b2366aad1ba9ebd56316a60a44b68b08c99e07111cb"
+    },
+    {
+      "path": "test/VerifyLaunchSuccess.cs",
+      "bytes": 27375,
+      "sha256": "883cfb9c41e5a01212567063fbb4b52e8b6c6b49753239546d9f496dcf1de89c"
+    },
+    {
+      "path": "Theme.cs",
+      "bytes": 26144,
+      "sha256": "b530fae6eb1d8c34f1e56cae4c33d489f3ae895f3c509735ff6dc466c85ab0bd"
+    },
+    {
+      "path": "tools/dnlib-LICENSE.txt",
+      "bytes": 1085,
+      "sha256": "ca38b47f5ec8b884d20d42a82b680e100df4edb4a5b45639349fcf2780651a16"
+    },
+    {
+      "path": "tools/dnlib.dll",
+      "bytes": 1179136,
+      "sha256": "97ef5328d1d1703924c48d9cd1d45b7227fe3836e116dcded623b6a0dbd52c23"
+    },
+    {
+      "path": "VerifyAboutCredits.cs",
+      "bytes": 19173,
+      "sha256": "294a8c7fda21964c3e5826f9c8bdafaf116389e6eed243e05114bcb5699d4e3b"
+    },
+    {
+      "path": "VerifyHomeCredits.cs",
+      "bytes": 14679,
+      "sha256": "9a74003d22d77f9283427e1385b3820358901023da000e00fb7e26133353a587"
+    },
+    {
+      "path": "VerifyLauncherUpdateDisabled.cs",
+      "bytes": 8142,
+      "sha256": "9c717cfe41d6344789a0a46e50f2fca684fe89688594a57dcf37b46a3c1a6c9d"
+    },
+    {
+      "path": "VerifyNavigationShell.cs",
+      "bytes": 17417,
+      "sha256": "65481e38d1ed45a14430ab36439f6b7580f07d231f69582ca8ae83694c763561"
+    },
+    {
+      "path": "VerifyPointerLight.cs",
+      "bytes": 11571,
+      "sha256": "0e7ad7c148eae5f92898d0796b368604d767e9d3a04989203b2a372d0f6b9b3d"
+    },
+    {
+      "path": "VerifyPresentation.cs",
+      "bytes": 19614,
+      "sha256": "07e17db0a826f0d07c168598b942f05c3f882be7c73838a1f2e6e259e1686a35"
+    },
+    {
+      "path": "VerifyRainScene.cs",
+      "bytes": 13198,
+      "sha256": "719d2eddd79a7e10a3ae3f37eab8270bdd3aa6cec66a56c05da14389c58f2d64"
+    }
+  ]
+}
