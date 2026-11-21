@@ -1,60 +1,63 @@
-# Plain Craft Launcher (PCL) · Cassell CL / Ricardo 龙族主题二创
+# Cassel-CL
 
-**原作者：龙腾猫跃（用户描述中的“龙腾喵跃”）。本项目由 Ricardo 进行纯二创，是第三方独立修改，与 PCL 官方无隶属关系，也不是官方更新版本。**
+**Original author: Longteng Maoyue (龙腾猫跃). Derivative author: Ricardo.**
 
-原项目：[Meloong-Git/PCL](https://github.com/Meloong-Git/PCL) · [原作者主页与赞助](https://meloong.com/afd/a/LTCat)。
+Cassel-CL is an independent, third-party fan modification of Plain Craft Launcher (PCL), inspired by Jiang Nan's *Dragon Raja*. Ricardo's work focuses on the visual theme, interface, animations, and launcher update policy. This project is not affiliated with PCL's official development team and is not an official PCL release.
 
-Ricardo：一个默默无闻的衰仔，Github同名同头像。
+[Original project](https://github.com/Meloong-Git/PCL) · [Original author's page and support link](https://meloong.com/afd/a/LTCat)
 
-## 公开范围
+About Ricardo: a little-known underdog, using the same name and avatar on GitHub.
 
-本仓库公开 Cassell CL Windows 二创的主题、界面和补丁源码、素材、构建脚本与验证程序。它依赖用户自行取得的原版 PCL EXE；**不包含完整 PCL 核心源码，也不提供原版/二改 EXE 下载**。不能把此仓库描述为完整启动器核心全部开源。
+## Source availability
 
-本次依据桌面 Cassell CL EXE 整理，程序集为 PCL 2.13.1.1 / .NET Framework 4.8。对应文件 SHA256：
-`65aa22fae684aab2c6604adcbeddee092b07ed0c4046ea28aae056498167c231`。
+This repository provides the Windows modification's theme and patch source code, assets, build scripts, and verification harnesses. Building requires an original PCL executable obtained separately. **The complete PCL core source code and precompiled original or modified launcher executables are not included.**
 
-## 与原版的区别
+The source baseline corresponds to the existing Windows executable named Cassell CL, based on PCL 2.13.1.1 and .NET Framework 4.8. Its SHA-256 is:
 
-| 部分 | 本二创的修改 |
+`65aa22fae684aab2c6604adcbeddee092b07ed0c4046ea28aae056498167c231`
+
+## Changes from the original launcher
+
+| Area | Changes in this modification |
 | --- | --- |
-| 名称与图标 | Cassell CL 名称，黑白学院徽记及圆角图标 |
-| 整体视觉 | 黑曜石、旧金、骨白配色，雨夜学院与世界树背景，主标题“雨落狂流之暗” |
-| 首页与导航 | 学院执行部档案式主页，导航“启程 / 档案 / 设置 / 执行部”，保留原生功能入口 |
-| 交互光照 | 鼠标附近动态柔光 |
-| 雨幕 | 带远近层次和透视的雨滴、风场与近景水纹；支持开关及 0–100% 雨量；最小化暂停。属于界面粒子效果，不是新增游戏内天气 |
-| 启动和进入动效 | 学院校徽开场、主页分步入场；可跳过，尊重减少动画设置 |
-| 游戏成功动效 | 根据原生启动状态、进程和游戏窗口就绪显示内部动画；相关历史验证含模拟场景，不等于真机游戏端到端验收 |
-| 关于与署名 | 原作者署名与赞助链接、Ricardo 作者卡及头像、二创声明 |
-| 启动器更新 | 停用启动器检查更新、自更新、替换与更新通知；保留游戏和模组相关更新实现 |
+| Branding and icon | Custom branding, a monochrome academy crest, and rounded icons |
+| Visual theme | Obsidian, antique gold, and ivory colors; a rainy academy and World Tree background; a headline meaning “Darkness Beneath the Torrential Rain” |
+| Home and navigation | An academy executive archive layout, with themed Launch, Archives, Settings, and Executive Division navigation while retaining access to native functions |
+| Pointer lighting | A soft light that follows the pointer |
+| Rain effects | Perspective particles with depth layers, wind, and foreground ripples; an on/off switch and 0–100% intensity control; animation pauses when minimized. This is an interface effect, not an in-game weather feature |
+| Startup and entrance | An academy crest introduction and staggered home-page entrance animations; the introduction can be skipped and respects reduced-animation settings |
+| Game-ready animation | An internal animation triggered by native launch state, a live game process, and game-window readiness. Historical checks include simulated scenarios and are not a complete real-game validation |
+| About and credits | Original-author attribution and support link, a Ricardo profile card and avatar, and a derivative-work statement |
+| Launcher updates | Launcher update checks, self-updating, executable replacement, and update notifications are disabled; game and mod update implementations are retained |
 
-Minecraft 启动、账号、游戏下载、Mod 等原有能力来自 PCL，不属于 Ricardo 新写的启动核心。以上为本地源码及历史验证记录能够支持的差异，不根据视频标题虚构其他功能。
+Minecraft launching, account management, game downloads, and mod-related capabilities originate from PCL. They are not a new launcher core written by Ricardo. The table describes changes supported by the local source and historical verification records.
 
-用户提供的介绍视频：[PCL2 二改 龙族风格启动器来了！！！（新增功能超多）](https://www.bilibili.com/video/BV1ZMxs6PEMr/)。整理时未能读取视频内容，因此未将视频中未经核实的内容列为已实现功能。
+[User-provided introduction video: “PCL2 Derivative — A Dragon Raja-Themed Launcher”](https://www.bilibili.com/video/BV1ZMxs6PEMr/). The video could not be accessed during documentation preparation, so unverified claims from it are not presented as implemented features.
 
-## 构建
+## Building
 
-Windows、.NET Framework 4.8 编译器（含 WPF）、PowerShell。仓库附带 dnlib.dll，保留其 MIT 许可，校验值见 SOURCE-MANIFEST.json。
+Requirements: Windows, PowerShell, and the .NET Framework 4.8 compiler with WPF support. The included dnlib.dll retains its MIT license; its checksum is recorded in SOURCE-MANIFEST.json.
 
-自行合法取得对应版本的原版 EXE，放到 `input/Plain Craft Launcher 2.exe`，或明确指定路径：
+Obtain the matching original executable through an authorized source and place it at `input/Plain Craft Launcher 2.exe`, or specify its location:
 
 ```powershell
 .\Build.ps1 -Original 'D:\PCL\Plain Craft Launcher 2.exe'
 ```
 
-基准原版 SHA256：`30eb93c62fc51ede0898648e67455478a3d5a4f279938ae65aec77b84cb9703f`。其他版本可能因方法或资源改变而失败。输出在 release-no-updates；不会覆盖输入。构建会执行结构完整性校验。编译产物不承诺逐字节复现（编译器元数据可能变化）。
+Original executable SHA-256:
 
-`RunVerification.ps1` 为界面专项验证入口。历史结构对照显示保留 6116 个原方法：8 个启动器更新相关方法作明确修改，入口注入主题加载，其余 6107 个非入口方法保持。联网登录、下载及实际 Windows 游戏启动尚未做完整验收。
+`30eb93c62fc51ede0898648e67455478a3d5a4f279938ae65aec77b84cb9703f`
 
-## 许可、名称与素材
+Other versions may fail because their methods or resources differ. Output is written to `release-no-updates`, leaving the input intact. The build performs structural integrity checks. Byte-for-byte reproducibility is not guaranteed because compiler metadata can vary.
 
-上游使用《PCL 分发有限许可》，并提供《PCL 存储库合理使用指南》，见原样保留的 LICENCE 及其官方链接。**本仓库不将 PCL 整体重新许可为 MIT、GPL 或其他通用开源许可证。源码可见不等于获得无限制再分发许可。**
+`RunVerification.ps1` runs the interface verification harnesses. Historical structural checks retained all 6,116 original methods: eight launcher-update methods were explicitly modified, the entry point received theme-loading instructions, and the remaining 6,107 non-entry method bodies were preserved. Online login, network downloads, and actual Windows game launching have not received complete end-to-end validation.
 
-当前 Cassell CL 名称、黑金 Windows 配色与上游指南中关于名称前缀和蓝色主色的要求存在差异；本仓库未附任何例外授权，不声称完整满足公开分发条件。此处先公开二创层源码，发布二进制或继续分发前仍须自行核对原许可并解决这些差异。本项目未代表原作者授予任何额外权利。
+## Licensing, naming, and assets
 
-二创立场：纯免费、仅二创，尊重原作者龙腾猫跃的权利。用户要求的界面原文“纯免费，仅二改，一切归原作者龙腾猫跃所有”予以说明；它不重新归属 dnlib、其他第三方组件或素材的版权。
+The upstream project uses the PCL Limited Distribution License and publishes repository usage guidelines. The original text is preserved in LICENCE with its official links. **This repository does not relicense PCL as MIT, GPL, or another general-purpose open-source license. Visible source code does not grant unrestricted redistribution rights.**
 
-背景为本项目生成的雨夜学院概念图；学院徽记和 Ricardo 头像来自用户提供的图片，原作者头像取自原启动器。图片未获得可任意再授权的证明，不随代码自动授予商用或独立再分发权利。江南《龙族》、Minecraft 等名称及相关权益属于各权利人，本项目不是其官方产品或授权联名。
+The project's custom name and black-and-gold Windows theme differ from the upstream guidelines concerning name prefixes and a blue primary color. No exception authorization is included, and this repository does not claim to satisfy every condition for public binary distribution. Before distributing binaries or redistributing the project, review the upstream license and resolve these differences. Ricardo does not grant additional rights on behalf of the original author.
 
-## 后续修改
+This is a free fan modification that respects the original author's rights. The existing interface statement expresses that the project is free, is only a derivative, and credits the original author. It does not transfer ownership of dnlib, other third-party components, or artwork to that author.
 
-用户已取消“小龙人”修改。本次只整理并公开现有 Windows 二创层源码，不包含相关角色修改。
+The rainy academy background was generated for the project. The academy crest and Ricardo avatar came from user-provided images; the original author's avatar came from the original launcher. No unrestricted relicensing authorization for these images is included, and publishing them alongside source code does not automatically grant commercial use or standalone redistribution rights. *Dragon Raja*, Minecraft, and related names and properties belong to their respective rights holders. This project is not an official product or authorized collaboration of those properties.

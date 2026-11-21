@@ -133,8 +133,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5086,
-      "sha256": "8f39d9f4bcb56c71790752defe67f6d4c6dcfe2bc0f43aa16b9cb39531a821bb"
+      "bytes": 6263,
+      "sha256": "bc4675f8659fd38f5b441a491fe296d09c08c7ad63c5ecb5d3c196f3e70931af"
     },
     {
       "path": "RunVerification.ps1",
@@ -143,8 +143,8 @@
     },
     {
       "path": "SOURCE-NOTICE.md",
-      "bytes": 211,
-      "sha256": "24b2a6f881bafe1f29f6767c8c7ad1a31e14b8450eeb6c5fbfed5a2ac0a519c0"
+      "bytes": 415,
+      "sha256": "d7ba555b6decabd569ac4c2fdb69b989a98fab64db78d2b8e86599a63ca3494a"
     },
     {
       "path": "test/VerifyDragonHome.cs",

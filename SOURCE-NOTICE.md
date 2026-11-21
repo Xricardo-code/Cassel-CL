@@ -1,3 +1,5 @@
-原作者：龙腾猫跃。二创作者：Ricardo。仅二创。
+# Cassel-CL — Source Notice
 
-源码公开范围和许可限制请先阅读 README.md 与 LICENCE；不包含完整 PCL 核心、用户账号配置或预编译启动器。
+Original author: Longteng Maoyue (龙腾猫跃). Derivative author: Ricardo. This is an independent fan modification.
+
+Read README.md and LICENCE for the source scope and licensing conditions. This repository does not contain the complete PCL core, user account configuration, or precompiled launcher executables. The upstream license text is preserved in its original language.
