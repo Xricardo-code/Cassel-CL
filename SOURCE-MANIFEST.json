@@ -63,8 +63,8 @@
     },
     {
       "path": "assets/Ricardo.jpg",
-      "bytes": 133759,
-      "sha256": "b3e9affb215ab2fd5518c7f220365589007b7f1b14c5d3d5d0461a8007d60740"
+      "bytes": 86273,
+      "sha256": "2df865250692932f3d2c72a7ff4d6b3fa942a9f7c2306c41fb377071f141b615"
     },
     {
       "path": "Build.ps1",
@@ -178,13 +178,13 @@
     },
     {
       "path": "VerifyAboutCredits.cs",
-      "bytes": 19173,
-      "sha256": "294a8c7fda21964c3e5826f9c8bdafaf116389e6eed243e05114bcb5699d4e3b"
+      "bytes": 19384,
+      "sha256": "e87748750b652f2f0b15931043a11886e10b45cdce49b17124c199d9afe823fa"
     },
     {
       "path": "VerifyHomeCredits.cs",
-      "bytes": 14679,
-      "sha256": "9a74003d22d77f9283427e1385b3820358901023da000e00fb7e26133353a587"
+      "bytes": 14874,
+      "sha256": "4e8d58d5ff0555b871d2745e5f8b7c98d6298371eea50f398ec9b2fccffa2355"
     },
     {
       "path": "VerifyLauncherUpdateDisabled.cs",

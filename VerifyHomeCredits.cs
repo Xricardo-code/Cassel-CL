@@ -138,7 +138,7 @@ static class VerifyHomeCredits
             var originalBitmap = originalAvatar.Source as BitmapSource;
             var ricardoBitmap = ricardoAvatar.Source as BitmapSource;
             Check(originalBitmap != null && originalBitmap.IsFrozen && originalBitmap.PixelWidth > 0 && originalBitmap.PixelHeight > 0, "original author image is decoded, nonempty and frozen");
-            Check(ricardoBitmap != null && ricardoBitmap.IsFrozen && ricardoBitmap.PixelWidth == 1000 && ricardoBitmap.PixelHeight == 928, "Ricardo avatar preserves supplied 1000x928 pixels and frozen decoded source");
+            Check(ricardoBitmap != null && ricardoBitmap.IsFrozen && ricardoBitmap.PixelWidth == 500 && ricardoBitmap.PixelHeight == 500, "Ricardo avatar preserves the supplied 500x500 pixels and frozen decoded source");
             Check(Circle(originalAvatar) && Circle(ricardoAvatar), "both avatar images use 44px circular crops without modifying the source images");
             Check(System.Windows.Automation.AutomationProperties.GetName(originalAvatar) == "龙腾猫跃头像" && System.Windows.Automation.AutomationProperties.GetName(ricardoAvatar) == "Ricardo头像", "avatars have descriptive original-author and Ricardo accessibility names");
             Check(Find<TextBlock>(card, "InfiniteCLOriginNotice").Text == "此启动器基于 PCL 二次创作", "home clearly identifies this launcher as a PCL derivative");
